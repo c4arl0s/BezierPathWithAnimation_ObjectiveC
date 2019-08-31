@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F1EA48A231A039A005BB4CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EA489231A039A005BB4CA /* AppDelegate.m */; };
+		8F1EA48D231A039A005BB4CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EA48C231A039A005BB4CA /* ViewController.m */; };
+		8F1EA492231A039D005BB4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1EA491231A039D005BB4CA /* Assets.xcassets */; };
+		8F1EA498231A039D005BB4CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EA497231A039D005BB4CA /* main.m */; };
+		8F1EA4A2231A039D005BB4CA /* BezierPath_onSquareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EA4A1231A039D005BB4CA /* BezierPath_onSquareViewTests.m */; };
+		8F1EA4AD231A039D005BB4CA /* BezierPath_onSquareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EA4AC231A039D005BB4CA /* BezierPath_onSquareViewUITests.m */; };
+		8F1EA4BB231A0641005BB4CA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1EA4BA231A0641005BB4CA /* ViewController.xib */; };
+		8F1EA4BE231A07BC005BB4CA /* SquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EA4BD231A07BC005BB4CA /* SquareView.m */; };
+		8F1EA4C0231A07E6005BB4CA /* SquareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1EA4BF231A07E6005BB4CA /* SquareView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F1EA49E231A039D005BB4CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F1EA47D231A039A005BB4CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F1EA484231A039A005BB4CA;
+			remoteInfo = BezierPath_onSquareView;
+		};
+		8F1EA4A9231A039D005BB4CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F1EA47D231A039A005BB4CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F1EA484231A039A005BB4CA;
+			remoteInfo = BezierPath_onSquareView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F1EA485231A039A005BB4CA /* BezierPath_onSquareView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierPath_onSquareView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1EA488231A039A005BB4CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F1EA489231A039A005BB4CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F1EA48B231A039A005BB4CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F1EA48C231A039A005BB4CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F1EA491231A039D005BB4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F1EA496231A039D005BB4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1EA497231A039D005BB4CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F1EA49D231A039D005BB4CA /* BezierPath_onSquareViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPath_onSquareViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1EA4A1231A039D005BB4CA /* BezierPath_onSquareViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPath_onSquareViewTests.m; sourceTree = "<group>"; };
+		8F1EA4A3231A039D005BB4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1EA4A8231A039D005BB4CA /* BezierPath_onSquareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPath_onSquareViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1EA4AC231A039D005BB4CA /* BezierPath_onSquareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPath_onSquareViewUITests.m; sourceTree = "<group>"; };
+		8F1EA4AE231A039D005BB4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1EA4BA231A0641005BB4CA /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8F1EA4BC231A07BC005BB4CA /* SquareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareView.h; sourceTree = "<group>"; };
+		8F1EA4BD231A07BC005BB4CA /* SquareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareView.m; sourceTree = "<group>"; };
+		8F1EA4BF231A07E6005BB4CA /* SquareView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquareView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F1EA482231A039A005BB4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1EA49A231A039D005BB4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1EA4A5231A039D005BB4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F1EA47C231A039A005BB4CA = {
+			isa = PBXGroup;
+			children = (
+				8F1EA487231A039A005BB4CA /* BezierPath_onSquareView */,
+				8F1EA4A0231A039D005BB4CA /* BezierPath_onSquareViewTests */,
+				8F1EA4AB231A039D005BB4CA /* BezierPath_onSquareViewUITests */,
+				8F1EA486231A039A005BB4CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1EA486231A039A005BB4CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EA485231A039A005BB4CA /* BezierPath_onSquareView.app */,
+				8F1EA49D231A039D005BB4CA /* BezierPath_onSquareViewTests.xctest */,
+				8F1EA4A8231A039D005BB4CA /* BezierPath_onSquareViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F1EA487231A039A005BB4CA /* BezierPath_onSquareView */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EA488231A039A005BB4CA /* AppDelegate.h */,
+				8F1EA489231A039A005BB4CA /* AppDelegate.m */,
+				8F1EA4BC231A07BC005BB4CA /* SquareView.h */,
+				8F1EA4BD231A07BC005BB4CA /* SquareView.m */,
+				8F1EA4BF231A07E6005BB4CA /* SquareView.xib */,
+				8F1EA48B231A039A005BB4CA /* ViewController.h */,
+				8F1EA48C231A039A005BB4CA /* ViewController.m */,
+				8F1EA4BA231A0641005BB4CA /* ViewController.xib */,
+				8F1EA491231A039D005BB4CA /* Assets.xcassets */,
+				8F1EA496231A039D005BB4CA /* Info.plist */,
+				8F1EA497231A039D005BB4CA /* main.m */,
+			);
+			path = BezierPath_onSquareView;
+			sourceTree = "<group>";
+		};
+		8F1EA4A0231A039D005BB4CA /* BezierPath_onSquareViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EA4A1231A039D005BB4CA /* BezierPath_onSquareViewTests.m */,
+				8F1EA4A3231A039D005BB4CA /* Info.plist */,
+			);
+			path = BezierPath_onSquareViewTests;
+			sourceTree = "<group>";
+		};
+		8F1EA4AB231A039D005BB4CA /* BezierPath_onSquareViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EA4AC231A039D005BB4CA /* BezierPath_onSquareViewUITests.m */,
+				8F1EA4AE231A039D005BB4CA /* Info.plist */,
+			);
+			path = BezierPath_onSquareViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F1EA484231A039A005BB4CA /* BezierPath_onSquareView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1EA4B1231A039D005BB4CA /* Build configuration list for PBXNativeTarget "BezierPath_onSquareView" */;
+			buildPhases = (
+				8F1EA481231A039A005BB4CA /* Sources */,
+				8F1EA482231A039A005BB4CA /* Frameworks */,
+				8F1EA483231A039A005BB4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BezierPath_onSquareView;
+			productName = BezierPath_onSquareView;
+			productReference = 8F1EA485231A039A005BB4CA /* BezierPath_onSquareView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F1EA49C231A039D005BB4CA /* BezierPath_onSquareViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1EA4B4231A039D005BB4CA /* Build configuration list for PBXNativeTarget "BezierPath_onSquareViewTests" */;
+			buildPhases = (
+				8F1EA499231A039D005BB4CA /* Sources */,
+				8F1EA49A231A039D005BB4CA /* Frameworks */,
+				8F1EA49B231A039D005BB4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1EA49F231A039D005BB4CA /* PBXTargetDependency */,
+			);
+			name = BezierPath_onSquareViewTests;
+			productName = BezierPath_onSquareViewTests;
+			productReference = 8F1EA49D231A039D005BB4CA /* BezierPath_onSquareViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F1EA4A7231A039D005BB4CA /* BezierPath_onSquareViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1EA4B7231A039D005BB4CA /* Build configuration list for PBXNativeTarget "BezierPath_onSquareViewUITests" */;
+			buildPhases = (
+				8F1EA4A4231A039D005BB4CA /* Sources */,
+				8F1EA4A5231A039D005BB4CA /* Frameworks */,
+				8F1EA4A6231A039D005BB4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1EA4AA231A039D005BB4CA /* PBXTargetDependency */,
+			);
+			name = BezierPath_onSquareViewUITests;
+			productName = BezierPath_onSquareViewUITests;
+			productReference = 8F1EA4A8231A039D005BB4CA /* BezierPath_onSquareViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F1EA47D231A039A005BB4CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Carlos Santiago Cruz";
+				TargetAttributes = {
+					8F1EA484231A039A005BB4CA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					8F1EA49C231A039D005BB4CA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8F1EA484231A039A005BB4CA;
+					};
+					8F1EA4A7231A039D005BB4CA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8F1EA484231A039A005BB4CA;
+					};
+				};
+			};
+			buildConfigurationList = 8F1EA480231A039A005BB4CA /* Build configuration list for PBXProject "BezierPath_onSquareView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F1EA47C231A039A005BB4CA;
+			productRefGroup = 8F1EA486231A039A005BB4CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F1EA484231A039A005BB4CA /* BezierPath_onSquareView */,
+				8F1EA49C231A039D005BB4CA /* BezierPath_onSquareViewTests */,
+				8F1EA4A7231A039D005BB4CA /* BezierPath_onSquareViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F1EA483231A039A005BB4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1EA4C0231A07E6005BB4CA /* SquareView.xib in Resources */,
+				8F1EA4BB231A0641005BB4CA /* ViewController.xib in Resources */,
+				8F1EA492231A039D005BB4CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1EA49B231A039D005BB4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1EA4A6231A039D005BB4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F1EA481231A039A005BB4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1EA48D231A039A005BB4CA /* ViewController.m in Sources */,
+				8F1EA498231A039D005BB4CA /* main.m in Sources */,
+				8F1EA48A231A039A005BB4CA /* AppDelegate.m in Sources */,
+				8F1EA4BE231A07BC005BB4CA /* SquareView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1EA499231A039D005BB4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1EA4A2231A039D005BB4CA /* BezierPath_onSquareViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1EA4A4231A039D005BB4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1EA4AD231A039D005BB4CA /* BezierPath_onSquareViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F1EA49F231A039D005BB4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F1EA484231A039A005BB4CA /* BezierPath_onSquareView */;
+			targetProxy = 8F1EA49E231A039D005BB4CA /* PBXContainerItemProxy */;
+		};
+		8F1EA4AA231A039D005BB4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F1EA484231A039A005BB4CA /* BezierPath_onSquareView */;
+			targetProxy = 8F1EA4A9231A039D005BB4CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F1EA4AF231A039D005BB4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F1EA4B0231A039D005BB4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F1EA4B2231A039D005BB4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = BezierPath_onSquareView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santiago.BezierPath-onSquareView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F1EA4B3231A039D005BB4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = BezierPath_onSquareView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santiago.BezierPath-onSquareView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F1EA4B5231A039D005BB4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = BezierPath_onSquareViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santiago.BezierPath-onSquareViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BezierPath_onSquareView.app/BezierPath_onSquareView";
+			};
+			name = Debug;
+		};
+		8F1EA4B6231A039D005BB4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = BezierPath_onSquareViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santiago.BezierPath-onSquareViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BezierPath_onSquareView.app/BezierPath_onSquareView";
+			};
+			name = Release;
+		};
+		8F1EA4B8231A039D005BB4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = BezierPath_onSquareViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santiago.BezierPath-onSquareViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BezierPath_onSquareView;
+			};
+			name = Debug;
+		};
+		8F1EA4B9231A039D005BB4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = BezierPath_onSquareViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santiago.BezierPath-onSquareViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BezierPath_onSquareView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F1EA480231A039A005BB4CA /* Build configuration list for PBXProject "BezierPath_onSquareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1EA4AF231A039D005BB4CA /* Debug */,
+				8F1EA4B0231A039D005BB4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1EA4B1231A039D005BB4CA /* Build configuration list for PBXNativeTarget "BezierPath_onSquareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1EA4B2231A039D005BB4CA /* Debug */,
+				8F1EA4B3231A039D005BB4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1EA4B4231A039D005BB4CA /* Build configuration list for PBXNativeTarget "BezierPath_onSquareViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1EA4B5231A039D005BB4CA /* Debug */,
+				8F1EA4B6231A039D005BB4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1EA4B7231A039D005BB4CA /* Build configuration list for PBXNativeTarget "BezierPath_onSquareViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1EA4B8231A039D005BB4CA /* Debug */,
+				8F1EA4B9231A039D005BB4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F1EA47D231A039A005BB4CA /* Project object */;
+}
